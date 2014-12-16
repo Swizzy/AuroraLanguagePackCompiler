@@ -1,0 +1,3 @@
+[submodule "XuiTools"]
+	path = XuiTools
+	url = git@github.com:Swizzy/XuiTools.git
