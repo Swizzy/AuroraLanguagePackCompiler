@@ -48,9 +48,6 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="XuiTools">
-      <HintPath>.\XuiTools.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -96,6 +93,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\missingflag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XuiTools\XuiTools\XuiTools.csproj">
+      <Project>{3fbf0be8-5a56-47e2-a89e-096e26a86937}</Project>
+      <Name>XuiTools</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

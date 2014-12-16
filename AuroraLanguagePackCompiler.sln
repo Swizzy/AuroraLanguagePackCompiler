@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuroraLanguagePackCompiler", "AuroraLanguagePackCompiler\AuroraLanguagePackCompiler.csproj", "{59F8ED6C-082C-4F5F-A459-6A921C86566A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XuiTools", "XuiTools\XuiTools\XuiTools.csproj", "{3FBF0BE8-5A56-47E2-A89E-096E26A86937}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{59F8ED6C-082C-4F5F-A459-6A921C86566A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59F8ED6C-082C-4F5F-A459-6A921C86566A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59F8ED6C-082C-4F5F-A459-6A921C86566A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FBF0BE8-5A56-47E2-A89E-096E26A86937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FBF0BE8-5A56-47E2-A89E-096E26A86937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FBF0BE8-5A56-47E2-A89E-096E26A86937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FBF0BE8-5A56-47E2-A89E-096E26A86937}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
