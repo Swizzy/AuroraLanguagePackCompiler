@@ -242,6 +242,8 @@
                     pkg.AddFile(resx.Key + ".xus", compiler.ConvertToKeyBasedTable(resx.Value.ToArray()));
             }
             // ReSharper disable once AssignNullToNotNullAttribute
+            if (File.Exists(Path.Combine(Path.GetDirectoryName(ofd.FileName), Path.GetFileNameWithoutExtension(ofd.FileName) + ".xzp")))
+                File.Delete(Path.Combine(Path.GetDirectoryName(ofd.FileName), Path.GetFileNameWithoutExtension(ofd.FileName) + ".xzp"));
             pkg.SaveToFile(File.OpenWrite(Path.Combine(Path.GetDirectoryName(ofd.FileName), Path.GetFileNameWithoutExtension(ofd.FileName) + ".xzp")));
         }
     }
