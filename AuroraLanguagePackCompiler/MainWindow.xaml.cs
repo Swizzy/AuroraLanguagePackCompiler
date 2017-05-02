@@ -228,7 +228,7 @@
             var pkg = new XuiPkg();
             foreach(var resx in localized) {
                 if(resx.Key.Equals("DynamicStrings")) {
-                    pkg.AddFile("Aurora_Strings.xus", compiler.ConvertToIndexBasedTables(resx.Value.ToArray()));
+                    pkg.AddFile("Aurora_Strings.xus", compiler.ConvertToKeyBasedTable(resx.Value.ToArray()));
                     foreach(var resxObj in resx.Value.Where(resxObj => resxObj.Key.EndsWith("LOCALE_VERSION", StringComparison.CurrentCultureIgnoreCase))) {
                         byte[] dat;
                         byte[] icon;
